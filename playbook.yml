@@ -4,7 +4,7 @@
   tasks:
      - name: Copy WAR file to Tomcat
        copy: 
-         src: "/var/snap/jenkins/4844/workspace/MvnAnsWeb/target/MvnAnsWeb/target/MvnAnsWeb.war"
+         src: "/var/snap/jenkins/4844/workspace/MvnAnsWeb/target/MvnAnsWeb.war"
          dest: "opt/tomcat/webapps/MvnAnsWeb.war"
          remote-src: no
          
